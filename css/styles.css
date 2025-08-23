@@ -735,34 +735,34 @@ body {
   color: ;
   text-decoration: ;
   text-transform: ;
-  font-family: ;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .rootOLetter {
-  font-size: px;
-  font-weight: ;
-  color: ;
-  text-decoration: ;
-  text-transform: ;
-  font-family: ;
+  font-size: 43px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .rootOTwoLetter {
-  font-size: px;
-  font-weight: ;
-  color: ;
-  text-decoration: ;
-  text-transform: ;
-  font-family: ;
+  font-size: 88px;
+  font-weight: bolder;
+  color: brown;
+  text-decoration: dashed;
+  text-transform: capitalize;
+  font-family: Georgia;
 }
 
 .rootTLetter {
-  font-size: px;
-  font-weight: ;
-  color: ;
-  text-decoration: ;
-  text-transform: ;
-  font-family: ;
+  font-size: 96px;
+  font-weight: lighter;
+  color: rgb(rgb(11, 45, 193), rgb(35, 222, 35), rgb(239, 239, 244));
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: serif;
 }
 
 /* SKILLS word */
