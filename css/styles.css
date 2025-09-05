@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 * {
   padding: 0;
@@ -55,7 +58,7 @@ body {
 
 .whyWLetter {
   font-size: 72px;
-  font-weight: bold;
+  font-weight: normal;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
@@ -64,7 +67,7 @@ body {
 
 .whyHLetter {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
@@ -84,9 +87,9 @@ body {
 
 .didDLetter {
   font-size: 65px;
-  font-weight: lighter;
+  font-weight: 700;
   color: saddlebrown;
-  text-decoration: dotted;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -95,47 +98,39 @@ body {
   font-size: 76px;
   font-weight: bold;
   color: brown;
-  text-decoration: underline;
+  text-decoration: overline;
   text-transform: capitalize;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .didDTwoLetter {
   font-size: 55px;
-  font-weight: lighter;
+  font-weight: 400;
   color: red;
-  text-decoration: dashed;
+  text-decoration: line-through;
   text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Libertinus;
 }
 
 /* THE word */
 
 .theTLetter {
   font-size: 38px;
-  font-weight: bolder;
+  font-weight: normal;
   color: seagreen;
   text-decoration: underline;
   text-transform: lowercase;
-  font-family: sans-serif;
+  font-family: Roboto Mono;
 }
 
-.theHLetter {
-  font-size: 44px;
-  font-weight: lighter;
-  color: orange;
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
-}
-
+.theHLetter,
 .theELetter {
   font-size: 55px;
   font-weight: bolder;
   color: darkgray;
-  text-decoration: dotted;
+  text-decoration: none;
   text-transform: capitalize;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: story script;
 }
 
 /* FRONT-END word */
@@ -171,9 +166,9 @@ body {
   font-size: 65px;
   font-weight: bold;
   color: firebrick;
-  text-decoration: underline;
+  text-decoration: overline;
   text-transform: capitalize;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .frontendTLetter {
