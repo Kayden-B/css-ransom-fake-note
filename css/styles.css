@@ -132,6 +132,8 @@ body {
   font-family: Roboto Mono;
 }
 
+/*group1*/
+
 .theHLetter,
 .theELetter {
   font-size: 55px;
@@ -313,28 +315,23 @@ body {
 .takeALetter {
   font-size: 67px;
   font-weight: lighter;
-  color: rgb(rgb(184, 67, 67), green, blue);
+  color: rgb(rgb(184, 67, 67));
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.takeKLetter {
+/*group2*/
+
+.takeKLetter,
+.takeELetter {
   font-size: 86px;
   font-weight: bold;
-  color: rgb(rgb(177, 15, 15), rgb(74, 184, 74), rgb(55, 55, 169));
+  color: rgb(rgb(74, 184, 74));
   text-decoration: solid;
   text-transform: uppercase;
   font-family: cursive;
-}
 
-.takeELetter {
-  font-size: 33px;
-  font-weight: lighter;
-  color: rgb(rgb(89, 9, 174), rgb(51, 199, 51), rgb(120, 120, 169));
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: cursive;
 }
 
 /* UP word */
@@ -425,7 +422,7 @@ body {
 .gardeningNTwoLetter {
   font-size: 53px;
   font-weight: bolder;
-  color: rgb(rgb(218, 14, 14), rgb(52, 211, 52), rgb(19, 19, 239));
+  color: rgb(rgb(218, 320, 33, ));
   text-decoration: solid;
   text-transform: capitalize;
   font-family: 'Times New Roman', Times, serif;
@@ -434,7 +431,7 @@ body {
 .gardeningGTwoLetter {
   font-size: 66px;
   font-weight: lighter;
-  color: rgb(rgb(140, 26, 26), rgb(49, 152, 49), rgb(64, 64, 212));
+  color: rgb(rgb(140, 26, 26));
   text-decoration: underline;
   text-transform: capitalize;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -472,7 +469,7 @@ body {
 .becauseALetter {
   font-size: 65px;
   font-weight: lighter;
-  color: rgb(rgb(249, 38, 228), rgb(214, 29, 227), blue);
+  color: rgb(rgb(249, 38, 228));
   text-decoration: dashed;
   text-transform: lowercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -604,7 +601,7 @@ body {
 .toTLetter {
   font-size: 58px;
   font-weight: bolder;
-  color: rgb(rgb(167, 22, 22), rgb(111, 195, 111), rgb(14, 14, 103));
+  color: rgb(rgb(167, 22, 140));
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -669,7 +666,7 @@ body {
 .improveVLetter {
   font-size: 64px;
   font-weight: bold;
-  color: rgb(16, 16, 182);
+  color: rgb(rgb(40, 171, 40));
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -689,7 +686,7 @@ body {
 .theirTLetter {
   font-size: 65px;
   font-weight: lighter;
-  color: rgb(rgb(220, 39, 39), rgb(5, 104, 5), rgb(16, 16, 182));
+  color: rgb(rgb(220, 160, 39));
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -763,7 +760,7 @@ body {
 .rootTLetter {
   font-size: 96px;
   font-weight: lighter;
-  color: rgb(rgb(11, 45, 193), rgb(35, 222, 35), rgb(239, 239, 244));
+  color: rgb(rgb(11, 45, 193));
   text-decoration: underline;
   text-transform: uppercase;
   font-family: serif;
@@ -774,7 +771,7 @@ body {
 .skillsSLetter {
   font-size: 66px;
   font-weight: bold;
-  color: rgb(rgba(255, 0, 0, 0.352), rgb(87, 158, 87), rgb(23, 23, 128));
+  color: rgb(rgb(194, 25, 233));
   text-decoration: solid;
   text-transform: capitalize;
   font-family: Arial, Helvetica, sans-serif;
@@ -792,7 +789,7 @@ body {
 .skillsILetter {
   font-size: 48px;
   font-weight: bold;
-  color: rgb(rgb(113, 17, 17), rgb(56, 237, 56), rgb(176, 176, 198));
+  color: rgb(rgb(113, 17, 87));
   text-decoration: underline;
   text-transform: lowercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -801,7 +798,7 @@ body {
 .skillsLLetter {
   font-size: 58px;
   font-weight: bolder;
-  color: rgb(rgb(38, 142, 121), green, blue);
+  color: rgb(rgb(38, 142, 121));
   text-decoration: dashed;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -810,7 +807,7 @@ body {
 .skillsLTwoLetter {
   font-size: 22px;
   font: weight 90px;
-  color: rgb(36, 159, 46);
+  color: rgb(rgb(65, 28, 185));
   text-decoration: double;
   text-transform: capitalize;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -827,24 +824,10 @@ body {
 
 /* SYMBOLS */
 
-.hyphen {
-  font-size: 32px;
-  font-weight: bold;
-  color: greenyellow;
-  text-decoration: double;
-  text-transform: capitalize;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+/* group3 */
 
-.exclamation-mark {
-  font-size: 69px;
-  font-weight: bolder;
-  color: beige;
-  text-decoration: solid;
-  text-transform: lowercase;
-  font-family: 'Times New Roman', Times, serif;
-}
-
+.hyphen,
+.exclamation-mark,
 .question-mark {
   font-size: 82px;
   font-weight: lighter;
