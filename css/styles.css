@@ -289,7 +289,7 @@ body {
   color: chartreuse;
   text-decoration: underline;
   text-transform: capitalize;
-  font-family: 'Courier New', Courier, monospace,
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .developerRLetter {
@@ -315,7 +315,7 @@ body {
 .takeALetter {
   font-size: 67px;
   font-weight: lighter;
-  color: rgb(rgb(184, 67, 67));
+  color: rgb(184, 67, 67);
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Times New Roman', Times, serif;
@@ -327,7 +327,7 @@ body {
 .takeELetter {
   font-size: 86px;
   font-weight: bold;
-  color: rgb(rgb(74, 184, 74));
+  color: rgb(74, 184, 74);
   text-decoration: solid;
   text-transform: uppercase;
   font-family: cursive;
@@ -422,7 +422,7 @@ body {
 .gardeningNTwoLetter {
   font-size: 53px;
   font-weight: bolder;
-  color: rgb(rgb(218, 320, 33, ));
+  color: rgb(218, 35, 67);
   text-decoration: solid;
   text-transform: capitalize;
   font-family: 'Times New Roman', Times, serif;
@@ -431,7 +431,7 @@ body {
 .gardeningGTwoLetter {
   font-size: 66px;
   font-weight: lighter;
-  color: rgb(rgb(140, 26, 26));
+  color: rgb(140, 26, 26);
   text-decoration: underline;
   text-transform: capitalize;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -469,7 +469,7 @@ body {
 .becauseALetter {
   font-size: 65px;
   font-weight: lighter;
-  color: rgb(rgb(249, 38, 228));
+  color: rgb(249, 38, 228);
   text-decoration: dashed;
   text-transform: lowercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -601,7 +601,7 @@ body {
 .toTLetter {
   font-size: 58px;
   font-weight: bolder;
-  color: rgb(rgb(167, 22, 140));
+  color: rgb(167, 22, 140);
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -666,7 +666,7 @@ body {
 .improveVLetter {
   font-size: 64px;
   font-weight: bold;
-  color: rgb(rgb(40, 171, 40));
+  color: rgb(40, 171, 40);
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -686,7 +686,7 @@ body {
 .theirTLetter {
   font-size: 65px;
   font-weight: lighter;
-  color: rgb(rgb(220, 160, 39));
+  color: rgb(220, 160, 39);
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -732,7 +732,7 @@ body {
 
 .rootRLetter {
   font-size: 33px;
-  font-weight: lighters;
+  font-weight: normal;
   color: azure;
   text-decoration: solid;
   text-transform: lowercase;
@@ -760,7 +760,7 @@ body {
 .rootTLetter {
   font-size: 96px;
   font-weight: lighter;
-  color: rgb(rgb(11, 45, 193));
+  color: rgb(11, 45, 193);
   text-decoration: underline;
   text-transform: uppercase;
   font-family: serif;
@@ -771,7 +771,7 @@ body {
 .skillsSLetter {
   font-size: 66px;
   font-weight: bold;
-  color: rgb(rgb(194, 25, 233));
+  color: rgb(194, 25, 233);
   text-decoration: solid;
   text-transform: capitalize;
   font-family: Arial, Helvetica, sans-serif;
@@ -789,7 +789,7 @@ body {
 .skillsILetter {
   font-size: 48px;
   font-weight: bold;
-  color: rgb(rgb(113, 17, 87));
+  color: rgb(113, 17, 87);
   text-decoration: underline;
   text-transform: lowercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -798,7 +798,7 @@ body {
 .skillsLLetter {
   font-size: 58px;
   font-weight: bolder;
-  color: rgb(rgb(38, 142, 121));
+  color: rgb(38, 142, 121);
   text-decoration: dashed;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -806,8 +806,8 @@ body {
 
 .skillsLTwoLetter {
   font-size: 22px;
-  font: weight 90px;
-  color: rgb(rgb(65, 28, 185));
+  font-weight: 700;
+  color: rgb(65, 28, 185);
   text-decoration: double;
   text-transform: capitalize;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
